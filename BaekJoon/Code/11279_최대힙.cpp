@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main(void) {
-    printf("kk");
+    printf("kkk");
 
     return 0;
 }
