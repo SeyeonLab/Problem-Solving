@@ -1,5 +1,5 @@
 # Algorithm
-* 백준, 프로그래머스 등의 알고리즘 코드(C++, Java) 저장 
+* 백준, 프로그래머스 등의 알고리즘 코드(C++, Java)
 * 알고리즘 공부 및 코딩 테스트를 준비하면서 푼 문제 업로드
 
 ### BOJ(BaekJoon Online Judge)
