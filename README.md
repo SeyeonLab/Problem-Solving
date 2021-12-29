@@ -8,4 +8,4 @@
 
 ### Programmers
 * [프로그래머스](https://programmers.co.kr/learn/challenges)에서 푼 문제들의 코드를 업로드  
-* 프로그래머스의 코딩테스트 연습 탭에 고득점 kit, 문제 모음, 난이도 기준으로 분류
+* 프로그래머스의 코딩테스트 연습 탭에 고득점 Kit, SQL 고득점 Kit, 모든 문제 등을 난이도 기준으로 분류
