@@ -21,26 +21,3 @@ int main() {
     }
 
 }
-
-/*
-void binary_search(int val, int n){
-    int start = 0;
-    int end = n-1;
-    int mid;
-    
-    while(end - start >= 0){
-        mid = (start+end)/2;
-        if(arr[mid] == val){
-            cout << '1' << '\n';
-            return;
-        }
-        else if(arr[mid] > val)
-            end = mid-1;
-        else if(arr[mid] < val)
-            start = mid+1;
-    }
-    
-    cout << '0' << '\n';
-    return;
-}
-*/
