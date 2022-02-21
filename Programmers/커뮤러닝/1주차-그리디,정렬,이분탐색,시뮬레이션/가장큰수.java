@@ -3,6 +3,7 @@
     2. 기본 라이브러리인 java.lang.*, java.util.*의 사용법을 숙지  */
 
 import java.util.*;
+import java.util.stream.*;
 
 class Solution {
     public String solution(int[] numbers) {
@@ -28,7 +29,7 @@ class Solution {
             answer += str;
         */
 
-        if (arr[0].charAt(0) == '0') return "0";
+        if (answer.startsWith("0")) return "0";
 
         return answer;
     }
