@@ -1,3 +1,5 @@
+// 시뮬레이션(구현) : 특정 상황을 재현하여 문제를 해결하는 방법
+
 import java.util.*;
 
 class Solution {
@@ -9,13 +11,12 @@ class Solution {
         Arrays.sort(aArray, Collections.reverseOrder());
         Arrays.sort(bArray, Collections.reverseOrder());
         
-        int idxA = 0, idxB = 0;
-        while (idxA < aArray.length) {
+        int idxB = 0;
+        for (int idxA = 0; idxA < aArray.length; ++idxA) {
             if (aArray[idxA] < bArray[idxB]) {
                 answer++;
                 idxB++;
             }
-            idxA++;
         }
         
         return answer;
