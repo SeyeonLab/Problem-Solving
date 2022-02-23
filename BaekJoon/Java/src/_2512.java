@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 
-class Main {
+public class _2512 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

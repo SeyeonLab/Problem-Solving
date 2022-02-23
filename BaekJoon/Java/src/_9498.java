@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+public class _9498 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int score = scanner.nextInt();
