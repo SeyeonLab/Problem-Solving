@@ -13,5 +13,5 @@
 * 프로그래머스의 코딩테스트 고득점 Kit, SQL 고득점 Kit, 모든 문제 등을 난이도 기준으로 분류
 
 ### SW Expert Academy
-* [SWEA](https://swexpertacademy.com/main/main.do)에서 푼 문제들의 코드를 업로드  
+* [SWEA](https://swexpertacademy.com/main/)에서 푼 문제들의 코드를 업로드  
 * 삼성 SW 역량테스트 준비를 위한 알고리즘 공부
