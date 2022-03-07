@@ -1,20 +1,14 @@
-import java.util.HashMap;
+import java.util.*;
 
 class Solution {
     public int solution(String[][] clothes) {
-        int answer = 1;
-
-        HashMap<String, Integer> hm = new HashMap<>();
-
-        for (String[] c : clothes) {
-            String type = c[1];
-            hm.put(type, hm.getOrDefault(type, 0) + 1);
-        }
-
-        for (String type : hm.keySet()) {
-            answer *= hm.get(type) + 1;
-        }
-
+        int answer = Arrays.stream(clothes)
+            .map(c -> c[1])
+            .distinct()
+            .map(type -> (int)Arrays.stream(clothes).filter(c -> c[1].equals(type)).count())
+            .map(c -> c + 1)
+            .reduce(1, (c, n) -> c * n);
+        
         return answer - 1;
     }
 }
