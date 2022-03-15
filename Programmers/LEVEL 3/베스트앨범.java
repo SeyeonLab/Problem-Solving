@@ -19,8 +19,10 @@ class Pair implements Comparable<Pair> {
     
     @Override
     public int compareTo(Pair p) {
+        // 장르 내에서 많이 재생된 노래를 먼저 수록
         if (this.first > p.first) return -1;
         else if (this.first < p.first) return 1;
+        // 장르 내에서 재생 횟수가 같은 노래 중에서는 고유 번호가 낮은 노래를 먼저 수록
         else {
             if (this.second > p.second) return 1;
             else if (this.second < p.second) return -1;
