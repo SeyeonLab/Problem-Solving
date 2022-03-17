@@ -10,7 +10,20 @@ public class _2480 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-        StringTokenizer st;
-        int T = Integer.parseInt(br.readLine());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int a = Integer.parseInt(st.nextToken());
+        int b = Integer.parseInt(st.nextToken());
+        int c = Integer.parseInt(st.nextToken());
+        
+        int answer = 0;
+        if (a == b && b == c) answer = 10000 + a * 1000;
+        else if (a == b || b == c) answer = 1000 + b * 100;
+        else if (a == c) answer = 1000 + a * 100;
+        else answer = Math.max(a, Math.max(b, c)) * 100;
+        
+        bw.write(String.valueOf(answer));
+        
+        bw.flush();
+        bw.close();
     }
 }
