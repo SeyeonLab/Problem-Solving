@@ -17,7 +17,7 @@ public class Solution {
 
         for(int tc = 1; tc <= T; tc++){
             st = new StringTokenizer(br.readLine());
-            int N = Integer.praseInt(st.nextToken());
+            int N = Integer.parseInt(st.nextToken());
         }   
     }
 }
