@@ -19,5 +19,11 @@ public class Solution {
             st = new StringTokenizer(br.readLine());
             int N = Integer.parseInt(st.nextToken());
         }   
+
+        bw.write();
+
+        bw.flush();
+        bw.close();
+        br.close();
     }
 }
