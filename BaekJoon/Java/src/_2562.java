@@ -14,7 +14,7 @@ public class _2562 {
             }
         }
         
-        System.out.print(max + "\n" + index+1);
+        System.out.print(max + "\n" + (index+1));
         scanner.close();
     }
 }
