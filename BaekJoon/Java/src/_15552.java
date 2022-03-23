@@ -5,7 +5,7 @@ import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 import java.io.IOException;
 
-public class _10950 {
+public class _15552 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -18,7 +18,7 @@ public class _10950 {
             int B = Integer.parseInt(st.nextToken());
             bw.write(String.valueOf(A+B) + "\n");
         }
-
+        
         bw.flush();
         bw.close();
     }

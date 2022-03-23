@@ -9,5 +9,6 @@ public class _8393 {
             sum += i;
         }
         System.out.println(sum);
+        scanner.close();
     }
 }
