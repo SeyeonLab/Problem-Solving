@@ -13,10 +13,10 @@ public class _2908 {
         
         String temp1 = st.nextToken();
         StringBuffer sb1 = new StringBuffer(temp1);
-        String num1 = sb1.reverse().toString();
+        String num1 = sb1.reverse().toString();         // 문자열 뒤바꾸기
         String temp2 = st.nextToken();
         StringBuffer sb2 = new StringBuffer(temp2);
-        String num2 = sb2.reverse().toString();
+        String num2 = sb2.reverse().toString();         // 문자열 뒤바꾸기
 
         if (num1.compareTo(num2) > 0) bw.write(num1);
         else bw.write(num2);
