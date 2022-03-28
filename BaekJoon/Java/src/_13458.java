@@ -12,15 +12,29 @@ public class _13458 {
 
         int N = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int[] examinee = new int[N];
-        
+        int[] testRoom = new int[N];
+
+        for (int i = 0; i < N; ++i)
+            testRoom[i] = Integer.parseInt(st.nextToken());
+
+        st = new StringTokenizer(br.readLine());
+        int B = Integer.parseInt(st.nextToken());
+        int C = Integer.parseInt(st.nextToken());
+
+        Long answer = 0L;
         for (int i = 0; i < N; ++i) {
+            testRoom[i] -= B;
+            answer++;
 
+            if (testRoom[i] > 0) {
+                if (testRoom[i] % C == 0) {
+                    answer += testRoom[i] / C;
+                } else {
+                    answer += testRoom[i] / C + 1;
+                }
+            }
         }
-        
-        int b = Integer.parseInt(st.nextToken());
-
-        bw.write(String.valueOf());
+        bw.write(String.valueOf(answer));
         bw.flush();
         bw.close();
     }
