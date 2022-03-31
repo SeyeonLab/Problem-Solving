@@ -1,2 +1,4 @@
-print("덩치")
-print("BigMan")
+N = 5
+
+for i in range(N):
+    
