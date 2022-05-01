@@ -1,9 +1,7 @@
-char = input()
+man1 = input()
+man2 = input()
 
-if char.isupper():
-    print("{0}(ASCII: {1}) => {2}(ASCII: {3})".format(
-        char, ord(char), char.lower(), ord(char.lower())))
-elif char.islower():
-    print("{0}(ASCII: {1}) => {2}(ASCII: {3})".format(
-        char, ord(char), char.upper(), ord(char.upper())))
-        
+if man1 == man2:
+    print("Result : Draw")
+elif man1 == "바위" and man2 == "가위" or man1 == "가위" and man2 == "보" or man1 == "보" and man2 == "바위":
+    print("Result : Man1 Win!")
