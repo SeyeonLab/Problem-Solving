@@ -1,6 +1,5 @@
 import functools
 
-
 def comparator(x, y):
     str1 = x + y
     str2 = y + x
